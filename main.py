@@ -128,11 +128,11 @@ if home==False and about==False or home==True and about==False:
                     with st.spinner("Tunggu Sebentar Masih Proses..."):
                         if klasifikasi[-1] == 0:
                             time.sleep(1)
-                            st.success("Hasil klasifikasi : **"+nama+"** Tidak Ada Paru-paru")
+                            st.success("Hasil klasifikasi : **"+nama+"** Tidak Ada Penyakit Paru-paru")
                             st.balloons()
                         else:
                             time.sleep(1)
-                            st.warning("Hasil klasifikasi : **"+nama+"** Ada Paru-paru")        
+                            st.warning("Hasil klasifikasi : **"+nama+"** Ada Penyakit Paru-paru")        
                             st.write("Silahkan Untuk Periksa Lebih Lanjut Ke Dokter" )
         else:
             st.error("Harap Diisi Semua Kolom")
